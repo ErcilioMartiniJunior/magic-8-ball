@@ -1,8 +1,8 @@
-let userName = 'Junior'
+let userName = '' // write your name
 
 userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!')
 
-let userQuestion = 'I will be a sucessfull fullstack developer?'
+let userQuestion = '' // ask a question
 
 console.log(`${userName} has asked: ${userQuestion}`)
 
