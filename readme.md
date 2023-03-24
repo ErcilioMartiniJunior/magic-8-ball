@@ -1,14 +1,22 @@
 <h1> Magic 8 Ball</h1>
 
-<p> Este código é um programa em JavaScript que simula uma Magic 8 ball (bola 8 mágica). A Magic 8 ball é um brinquedo de bola de plástico que é usado para fazer perguntas e obter respostas aleatórias.</p>
+Este código é um programa em JavaScript que simula o funcionamento de uma Magic 8-Ball, uma bola que responde a perguntas com respostas aleatórias.
 
-<p> O programa começa definindo uma variável chamada <strong>userName</strong>. Em seguida, um <strong>operador ternário</strong> é utilizado para imprimir uma mensagem de saudação personalizada se <strong>userName</strong> tiver um valor. Se <strong>userName</strong> for um valor falsy, o programa simplesmente imprime uma mensagem de saudação genérica.</p>
+A variável userName é inicializada com uma string vazia. O usuário deve escrever seu nome aqui. Se userName não estiver vazio, a saudação será "Hello, nome_do_usuário!", caso contrário, será apenas "Hello!".
 
-<p> Em seguida, uma variável chamada <strong>userQuestion</strong> é definida com o valor correspondendo a uma pergunta do usuário. O programa, em seguida, imprime uma mensagem usando o valor de <strong>userQuestion</strong> juntamente com o valor de <strong>userName</strong>. </p>
+A variável userQuestion também é inicializada com uma string vazia. O usuário deve escrever sua pergunta aqui.
 
-<p> O programa gera um número aleatório usando a função <strong>Math.random()</strong>, multiplica por 8 e arredonda para baixo com a função <strong>Math.floor()</strong>, e atribui o resultado a variável <strong>randomNumber</strong>. Em seguida, utiliza uma estrutura de controle <strong>switch</strong> para selecionar uma resposta aleatória com base no valor de <strong>randomNumber</strong>. A resposta selecionada é atribuída à variável <strong>eightBall</strong>. </p>
+O código imprime a pergunta do usuário no console, independente de o usuário ter inserido seu nome ou não.
 
-<p> Finalmente, o programa imprime uma mensagem com a resposta selecionada pela Magic 8 ball, utilizando o valor de <strong>eightBall</strong>. </p>
+A variável randomNumber é inicializada com um número inteiro aleatório entre 0 e 7 (inclusos).
+
+A variável eightBall é inicializada como uma string vazia e será usada para armazenar a resposta da Magic 8-Ball.
+
+O código utiliza uma estrutura switch para associar o valor de randomNumber a uma das possíveis respostas da Magic 8-Ball e armazena essa resposta na variável eightBall.
+
+Finalmente, o código imprime no console a resposta da Magic 8-Ball à pergunta do usuário.
+
+O usuário deve modificar o código para inserir seu nome e a pergunta que deseja fazer, e então executar o programa para obter uma resposta aleatória da Magic 8-Ball.
 
 <h2>Tecnologia:</h2>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
