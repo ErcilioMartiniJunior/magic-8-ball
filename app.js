@@ -38,3 +38,5 @@ switch(randomNumber) {
 }
 
 console.log(`The Magic 8 ball says: ${eightBall}.`)
+
+
