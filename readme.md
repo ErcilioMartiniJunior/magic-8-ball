@@ -1,5 +1,7 @@
 <h1> Magic 8 Ball</h1>
 
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+
 Este código é um programa em JavaScript que simula o funcionamento de uma Magic 8-Ball, uma bola que responde a perguntas com respostas aleatórias.
 
 A variável userName é inicializada com uma string vazia. O usuário deve escrever seu nome aqui. Se userName não estiver vazio, a saudação será "Hello, nome_do_usuário!", caso contrário, será apenas "Hello!".
@@ -17,9 +19,6 @@ O código utiliza uma estrutura switch para associar o valor de randomNumber a u
 Finalmente, o código imprime no console a resposta da Magic 8-Ball à pergunta do usuário.
 
 O usuário deve modificar o código para inserir seu nome e a pergunta que deseja fazer, e então executar o programa para obter uma resposta aleatória da Magic 8-Ball.
-
-<h2>Tecnologia:</h2>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 
 <h2>Autor</h2>
 <h3>Ercilio martini Junior</h3>
